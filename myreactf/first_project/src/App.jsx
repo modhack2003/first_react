@@ -5,14 +5,15 @@ import About from './About';
 import Contact from './Contact';
 import Features from './Features';
 import Header from './Header';
-import DarkModetoggle from './DarkModeToggle';
+import DarkModeToggle from './DarkModeToggle';
+
 
 
 function App() {
   return (
       <Router>
         <Header/>
-        <DarkModetoggle/>
+        <DarkModeToggle/>
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
